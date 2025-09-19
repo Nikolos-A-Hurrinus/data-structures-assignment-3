@@ -1,0 +1,4 @@
+the purpose of the algorithm is to find the largest product of two different elements in an array
+it sets the 2 iterations to 0 and iterates iterate1 to sz - 2 and iterate2 from iterate1 + 1 to sz - 1 which keeps them different numbers as well as in the scope of the array. sz == to the size of the array
+so the number of unique pairs in an array of size n would be n(n-1)/2 which is == to n^2
+this leads to Big O being O(n^2)
